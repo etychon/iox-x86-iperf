@@ -7,7 +7,7 @@ ADD idle.sh /idle.sh
 
 # Install.
 RUN \
-  apk add  --no-cache bash curl git htop unzip vim wget less net-tools joe curl iproute2 python3 nmap tcpdump lsof busybox-extras iperf3
+  apk add  --no-cache bash net-tools busybox-extras iperf3
   
 # Set environment variables.
 ENV HOME /root
